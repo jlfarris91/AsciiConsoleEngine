@@ -1,0 +1,9 @@
+**/build/*
+**/ipch/*
+**/obj/*
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj*
+**/.vs/*
+UnityProject/Library/*

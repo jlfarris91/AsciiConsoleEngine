@@ -1,0 +1,29 @@
+#pragma once
+
+DefineTestClass(TypeTests)
+{
+    DefineTestClass(Pointer)
+    {
+        DeclareTest(ASD);
+    };
+    DefineTestClass(Destruct)
+    {
+        DeclareTest(ProperlyDestructsObject);
+        DeclareTest(ThrowsIfObjectIsNull);
+        DeclareTest(ThrowsIfThereIsNoDestructorRegistered);
+    };
+    DefineTestClass(Method)
+    {
+        DeclareTest(Overloads);
+    };
+    DefineTestClass(IsSubclassOf)
+    {
+        DeclareTest(ReturnsTrueIfIsSubclass);
+        DeclareTest(ReturnsFalseIfIsNotSubclass);
+    };
+    DefineTestClass(IsBaseOf)
+    {
+        DeclareTest(ReturnsTrueIfIsBaseOf);
+        DeclareTest(ReturnsFalseIfIsNotBaseOf);
+    };
+};

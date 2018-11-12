@@ -1,0 +1,16 @@
+%YAML 1.1
+% TAG !u!tag:unity3d.com, 2011:
+--- !u!0 &4300002
+Mesh:
+  name: Cube
+  path: Assets/Resources/Models/cube
+  ext: .obj
+--- !u!0 &2800000
+Texture:
+  name: bricks
+  path: Assets/Resources/Textures/bricks
+  ext: .png
+--- !u!0 &2100000
+Material:
+  name: bricks
+  texture: {fileID: 2800000}

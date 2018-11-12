@@ -1,0 +1,7 @@
+.\AsciiEngine\
+.\ConsoleGL\
+.\Game\
+.\Math\
+.\Meta\
+.\Shared\
+.\UnitTests\
